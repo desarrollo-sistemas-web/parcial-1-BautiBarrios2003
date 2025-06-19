@@ -6,5 +6,5 @@
 // 🧠 Pista: Existe una función que se llama array_filter, yo la chusmearía...
 
 function filtrarPares($numeros) {
-    // Tu código aquí
+    return array_filter($numeros, $numeros % 2 == 0);
 }
