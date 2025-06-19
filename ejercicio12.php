@@ -5,6 +5,19 @@
 // Complejidad: ALTA (3 puntos)
 
 
-function calcularFactorial($numero) {
-    // Tu código aquí
+function calcularFactorial($numero)
+{
+    $obtenerfac = 1;
+
+    if ($numero < 0) {
+        echo "el numero no se puede factorizar";
+    } elseif ($numero == 0 || $numero == 1) {
+        return $numero = 1;
+    }
+
+    for ($i = 2; $i <= $numero; $i++) {
+        if ($i <= $numero) {
+            return $obtenerfac *= $numero;
+        }
+    }
 }
